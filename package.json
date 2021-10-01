@@ -1,0 +1,32 @@
+{
+  "name": "tinyara",
+  "version": "0.0.0",
+  "description": "A small implementation of Ara",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js"
+  },
+  "keywords": [
+    "tiny",
+    "ara",
+    "aid",
+    "identity",
+    "file",
+    "network",
+    "manager"
+  ],
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@0xcert/cert": "^2.1.1",
+    "@0xcert/ethereum-asset-ledger": "^2.1.1",
+    "@0xcert/ethereum-generic-provider": "^2.1.1",
+    "@0xcert/ethereum-value-ledger": "^2.1.1",
+    "ara-crypto": "^0.9.4",
+    "bip39": "^3.0.4",
+    "did-uri": "^0.5.1",
+    "ethers": "^5.4.7",
+    "hyperdrive": "^10.21.0",
+    "hyperswarm": "^2.15.3"
+  }
+}
